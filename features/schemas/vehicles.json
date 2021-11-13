@@ -1,0 +1,63 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "items": {
+        "$id": "#/items/0",
+        "type": "object",
+        "required": [
+            "ID",
+            "Make",
+            "Model",
+            "Version",
+            "Image",
+            "KM",
+            "Price",
+            "YearModel",
+            "YearFab",
+            "Color"
+        ],
+        "properties": {
+            "ID": {
+                "$id": "#/items/0/properties/ID",
+                "type": "integer"
+            },
+            "Make": {
+                "$id": "#/items/0/properties/Make",
+                "type": "string"
+            },
+            "Model": {
+                "$id": "#/items/0/properties/Model",
+                "type": "string"
+            },
+            "Version": {
+                "$id": "#/items/0/properties/Version",
+                "type": "string"
+            },
+            "Image": {
+                "$id": "#/items/0/properties/Image",
+                "type": "string"
+            },
+            "KM": {
+                "$id": "#/items/0/properties/KM",
+                "type": "integer"
+            },
+            "Price": {
+                "$id": "#/items/0/properties/Price",
+                "type": "string"
+            },
+            "YearModel": {
+                "$id": "#/items/0/properties/YearModel",
+                "type": "integer"
+            },
+            "YearFab": {
+                "$id": "#/items/0/properties/YearFab",
+                "type": "integer"
+            },
+            "Color": {
+                "$id": "#/items/0/properties/Color",
+                "type": "string"
+            }
+        }
+    }
+}
